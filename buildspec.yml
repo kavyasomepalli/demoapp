@@ -3,6 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
+      - echo Enetered Build stage
       - echo Build completed on `date`
-      - echo Pushing the Docker images...
+    
       
